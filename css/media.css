@@ -1,0 +1,110 @@
+@media (max-width: 75em) {
+  /* 1200px */
+  .hero_heading h2 {
+    font-size: 64px;
+  }
+  .image_bg_container img {
+    width: 500px;
+  }
+  .content_right_hero_section video {
+    width: 115px;
+  }
+  .video_product {
+    left: 108px;
+    top: 85px;
+  }
+  .sectionWhy {
+    display: block !important;
+  }
+}
+@media (max-width: 62em) {
+  /* 992px */
+  .hero_content {
+    width: 100%;
+    text-align: center;
+  }
+  .image_bg_container {
+    display: none;
+  }
+  .description_hero {
+    margin: 0 auto;
+  }
+  .toggle_icon {
+    display: block;
+  }
+  .nav_list {
+    display: none;
+  }
+}
+@media (max-width: 36em) {
+  .hero_heading h2 {
+    font-size: 48px;
+  }
+
+  .illustrator_whyDo {
+    display: none;
+  }
+  .whyDo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 62em) {
+  /* 576px */
+  .container_head_sections,
+  .whyTeckSection {
+    text-align: center;
+  }
+  .whyTeckSection_col:not(:first-child) {
+    margin-top: 32px;
+  }
+
+  .cta {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 176, 225, 0.7),
+        rgba(0, 176, 225, 0.3)
+      ),
+      url(../assets/bg-cta-mobile.jpg);
+  }
+  .container_content {
+    width: 100%;
+    text-align: center;
+  }
+  .title_cta {
+    font-size: 48px;
+  }
+  .btn_cta a {
+    font-size: 20px;
+  }
+  .footer  {
+    padding: 0px 0 25px 0;
+  }
+  .col_tow_footer {
+    padding-top: 32px;
+    text-align: center;
+    order: 3;
+  }
+  .description_footer {
+    width: 100%;
+    padding: 0 48px;
+  }
+  .col_three_footer {
+    border: none;
+    border-bottom: 1px dotted var(--main-color);
+  }
+  .col_four_footer {
+    border: none;
+    border-bottom: 1px dotted var(--main-color);
+  }
+  .social_icons {
+    order: 1;
+  }
+  .the_end {
+    text-align: center;
+    display: inline-block;
+  }
+  .list_group_icons {
+    justify-content: center;
+  }
+}
