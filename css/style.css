@@ -34,9 +34,18 @@
     background-position: 0% 50%;
   }
 }
+.nav_container {
+  position: relative;
+}
+.container_right_hereoSection {
+  position: absolute;
+  top: -0;
+  right: -6%;
+}
 .hero_logo {
   font-size: 24px;
   font-weight: bold;
+  color: #fff;
 }
 .nav_list {
   display: flex;
@@ -76,9 +85,6 @@
   position: absolute;
   right: 5%;
   top: 160px;
-}
-.image_bg_container img {
-  vertical-align: baseline;
 }
 
 .content_right_hero_section {
@@ -125,9 +131,9 @@
   margin-bottom: 14px;
 }
 .head_col {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
-  color: var(--pragraph-color);
+  color: var(--secondColor);
   margin-bottom: 10px;
 }
 .description_col {
@@ -147,6 +153,8 @@
   margin: auto;
 }
 .cards_project {
+  position: relative;
+  margin: 24px 0;
   margin-top: 64px;
   transition: var(--transtion);
   cursor: pointer;
@@ -168,12 +176,10 @@
   cursor: pointer;
 }
 .img_mobile {
-  position: relative;
-}
-.img_mobile img {
   position: absolute;
-  right: 0;
-  bottom: -169px;
+  right: 8px;
+  bottom: 64px;
+  z-index: 1;
 }
 .icons_card a {
   text-decoration: none;
@@ -190,7 +196,7 @@
 .cta {
   background-image: linear-gradient(
       to right,
-      rgba(0, 176, 225, 0.7),
+      rgba(0, 176, 225, 0.8),
       rgba(0, 176, 225, 0.3)
     ),
     url(../assets/bg-cta.webp);
@@ -199,7 +205,11 @@
   height: 100vh;
   position: relative;
 }
+
 .container_content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 50%;
 }
 .cta_heading {
@@ -221,6 +231,7 @@
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0.5px;
+  color: #fff;
 }
 .btn_cta {
   margin-top: 24px;
@@ -236,6 +247,7 @@
 /* Start footer */
 .footer {
   padding: 100px 0;
+  background-color: var(--BG-color);
 }
 .description_footer {
   font-size: var(--defult-font-size);
@@ -244,7 +256,7 @@
 }
 
 .title_col_footer {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 500;
   color: var(--secondColor);
 }
@@ -259,12 +271,13 @@
 
 .link_item {
   text-decoration: none;
+  font-weight: 500;
   color: var(--secondColor);
-  font-size: 18px;
-  transition: 0.2s;
+  font-size: 16px;
+  transition: 0.1s;
 }
 .link_item:hover {
-  color: var(--secondColor2);
+  opacity: 0.7;
 }
 .col_three_footer {
   border-right: 1px dotted var(--main-color);
@@ -273,15 +286,23 @@
 
 /*  end of page */
 .the_end {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: var(--BG-color);
+}
+.content_thEnd {
   padding-bottom: 24px;
 }
 .copyright {
   font-size: var(--defult-font-size);
-  color: var(--main-color);
+  color: var(--secondColor);
   font-weight: 500;
+}
+.description_footer {
+  color: var(--secondColor);
+}
+.copyright a {
+  color: #4b0ab5;
+  text-decoration: none;
+  transition: var(--transtion);
 }
 .list_group_icons {
   display: flex;

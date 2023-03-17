@@ -9,7 +9,10 @@ html {
 }
 body {
   background-color: var(--BG-color2);
-
+}
+::selection {
+  background-color: #00afe1;
+  color: #fff;
 }
 :root {
   --main-color: #00afe1;
@@ -40,7 +43,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
-  color: var(--main-color);
+  color: #4B0AB5;
 }
 .head_sections {
   font-weight: 500;
