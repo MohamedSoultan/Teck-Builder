@@ -76,10 +76,12 @@
   color: var(--pragraph-color);
   max-width: 75%;
   letter-spacing: 0.3;
+  margin: 32px auto 24px 0;
 }
 
 .action_btn a {
   color: #fff;
+  font-size: 18px;
 }
 .image_bg_container {
   position: absolute;
@@ -256,6 +258,7 @@
 .footer {
   padding: 100px 0;
   background-color: var(--BG-color);
+  position: relative;
 }
 .description_footer {
   font-size: var(--defult-font-size);
@@ -295,6 +298,7 @@
 /*  end of page */
 .the_end {
   background-color: var(--BG-color);
+  position: relative;
 }
 .content_thEnd {
   padding-bottom: 24px;
@@ -308,9 +312,12 @@
   color: var(--secondColor);
 }
 .copyright a {
-  color: #4b0ab5;
+  color: #008cb4;
+  font-weight: bold;
   text-decoration: none;
   transition: var(--transtion);
+}.copyright a:hover {
+  border-bottom: 1px dotted #008cb4;
 }
 .list_group_icons {
   display: flex;

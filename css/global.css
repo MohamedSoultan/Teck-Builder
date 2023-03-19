@@ -29,6 +29,7 @@ body {
 }
 .toggle_icon {
   display: none;
+  cursor: pointer;
 }
 .praimry_btn {
   border: none;
@@ -43,7 +44,7 @@ body {
 .subTitle {
   font-size: 18px;
   font-weight: 600;
-  line-height: 1;
+  line-height: 1.5;
   color: #008cb4;
 }
 .head_sections {
@@ -57,7 +58,9 @@ body {
 .square_img_gallery,
 .square_img_why,
 .square_img,
-.square_img_cta {
+.square_img_cta,
+.square_img_footer,
+.square_img_the_end {
   display: none;
 }
 
