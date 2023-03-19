@@ -8,6 +8,7 @@ html {
   font-family: sans-serif;
 }
 body {
+  position: relative;
   background-color: var(--BG-color2);
 }
 ::selection {
@@ -43,7 +44,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
-  color: #4B0AB5;
+  color: #4b0ab5;
 }
 .head_sections {
   font-weight: 500;
@@ -53,3 +54,13 @@ body {
   margin-bottom: 64px;
 }
 /* .container_head_sections */
+.square_img_gallery,
+.square_img_why,
+.square_img,
+.square_img_cta {
+  opacity: 0;
+}
+
+.container_squre {
+  position: relative;
+}

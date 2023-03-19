@@ -14,7 +14,7 @@
   animation: gradient 25s ease infinite;
   height: 75vh;
   z-index: 1;
-  margin-bottom: 220px;
+  margin-bottom: 70px;
 }
 .bg_svg {
   position: absolute;
@@ -99,6 +99,9 @@
 /* End Hero section */
 
 /* Start servcis  */
+.whyDo {
+  position: relative;
+}
 .why_content {
   width: 80%;
 }
@@ -111,6 +114,8 @@
   font-size: 2.4rem;
   line-height: 1.8;
   letter-spacing: 0.4px;
+  position: relative;
+  z-index: 3;
 }
 .whyWeb {
   padding-bottom: 100px;
@@ -123,6 +128,7 @@
 
 /* why teck builder */
 .whyTeckBuilder {
+  position: relative;
   padding: 100px 0;
 }
 
@@ -139,12 +145,14 @@
 .description_col {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.6;
   color: var(--pragraph-color);
+  position: relative;
+  z-index: 10
 }
 
 /* gallery */
 .gallery {
+  position: relative;
   padding: 100px 0;
   background-color: var(--BG-color);
 }

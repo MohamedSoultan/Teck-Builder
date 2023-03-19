@@ -35,7 +35,7 @@
   .nav_list {
     display: none;
   }
-  .hero_section,
+  .nav_container,
   .whyVideo,
   .whyWeb,
   .whyTeckBuilder,
@@ -126,11 +126,19 @@
 @media (max-width: 48em) {
 }
 @media (max-width: 36em) {
+  .whyTeckBuilder,
+  .whyVideo,
+  .whyWeb,
+  .whyTeckBuilder {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .hero_heading h2 {
     font-size: 48px;
   }
   .hero_section {
     height: 55vh;
+    margin-bottom: 195px;
   }
   .whyTeckSection_col:not(:first-child) {
     margin-top: 32px;
@@ -140,5 +148,36 @@
   }
   .whyDo {
     text-align: center;
+  }
+
+  .square_img_gallery,
+  .square_img_why,
+  .square_img_cta,
+  .square_img {
+    opacity: 0.5;
+  }
+  .square_img {
+    position: absolute;
+    top: 86px;
+    right: 0;
+    z-index: -10;
+  }
+
+  .square_img_why {
+    position: absolute;
+    top: -250px;
+    left: 0;
+  }
+  .square_img_gallery {
+    position: absolute;
+    top: -82.5rem;
+    right: 15px;
+  }
+  .square_img_cta {
+    position: absolute;
+    top: -113rem;
+    z-index: 10;
+    left: 5rem;
+    transform: rotate(20deg);
   }
 }
