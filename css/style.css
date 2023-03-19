@@ -6,7 +6,7 @@
       -45deg,
       var(--main-color),
       #a960ee,
-      #90e0ff,
+      #72d7ff,
       #ff333d
     ),
     #ffcb57;
@@ -14,7 +14,7 @@
   animation: gradient 25s ease infinite;
   height: 75vh;
   z-index: 1;
-  margin-bottom: 70px;
+  margin-bottom: 180px;
 }
 .bg_svg {
   position: absolute;

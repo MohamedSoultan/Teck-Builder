@@ -12,7 +12,8 @@
 07- edit opcity bg-cta {done}
 08- center copyright {done}
 09- margin to card top & right {done} has colums
-10- add some style like cercle rounded  has border ruedis and grdient colors animtion , rando place {done}
+10- add some style like cercle rounded has border ruedis and grdient colors animtion , rando place {done}
+
 # JS
 
 00- menu navgtion

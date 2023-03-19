@@ -44,7 +44,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 1;
-  color: #4b0ab5;
+  color: #008cb4;
 }
 .head_sections {
   font-weight: 500;
@@ -58,9 +58,13 @@ body {
 .square_img_why,
 .square_img,
 .square_img_cta {
-  opacity: 0;
+  display: none;
 }
 
 .container_squre {
   position: relative;
+}
+
+.important_title {
+  color: #fff;
 }

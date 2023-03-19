@@ -154,6 +154,7 @@
   .square_img_why,
   .square_img_cta,
   .square_img {
+    display: block;
     opacity: 0.5;
   }
   .square_img {
