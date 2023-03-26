@@ -149,7 +149,7 @@
   line-height: 1.5;
   color: var(--pragraph-color);
   position: relative;
-  z-index: 10
+  z-index: 10;
 }
 
 /* gallery */
@@ -316,7 +316,8 @@
   font-weight: bold;
   text-decoration: none;
   transition: var(--transtion);
-}.copyright a:hover {
+}
+.copyright a:hover {
   border-bottom: 1px dotted #008cb4;
 }
 .list_group_icons {
